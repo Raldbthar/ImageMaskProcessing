@@ -176,7 +176,7 @@ int main(int argc, char** argv)
 			}
 
 			Color mostFrequentColor;
-			uint32_t maxColorFrequency = 1;
+			uint32_t maxColorFrequency = 0;
 
 			for (const auto& [color, frequency] : pixelColorCount)
 			{
